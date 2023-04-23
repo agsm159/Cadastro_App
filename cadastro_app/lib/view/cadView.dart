@@ -67,7 +67,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               onChanged: (value) {
                 setState(() {
-                  //valorGasolina = double.parse(value);
                 });
               },
             ),
@@ -79,7 +78,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               onChanged: (value) {
                 setState(() {
-                  //valorAlcool = double.parse(value);
                 });
               },
             ),
@@ -90,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ],
         ),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
